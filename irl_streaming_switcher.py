@@ -7,7 +7,7 @@ import time
 
 # Configuration
 STREAM_NAME = "STREAM KEY NAME"  # Stream key to send to the server
-HLS_URL = f"http://localhost:8080/hls/{STREAM_NAME}.m3u8"
+HLS_URL = "http://localhost:8080/hls/{STREAM_NAME}.m3u8"
 STREAM_URL = "rtmp://{Stream URL}" #Streaming URL
 OFFLINE_IMAGE = "/home/ubuntu/offline.png"  # Offline image
 
